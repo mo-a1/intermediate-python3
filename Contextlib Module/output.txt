@@ -1,0 +1,12 @@
+hello from redirect_stdout context manager.
+Context manager for temporarily redirecting stdout to another file.
+
+        # How to send help() to stderr
+        with redirect_stdout(sys.stderr):
+            help(dir)
+
+        # How to write help() to a file
+        with open('help.txt', 'w') as f:
+            with redirect_stdout(f):
+                help(pow)
+    

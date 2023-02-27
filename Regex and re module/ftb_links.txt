@@ -1,0 +1,35 @@
+Fedora Core 		ftp
+Fedora Extras 	http 	ftp 	rsync
+          ftp://ftp7.br.FreeBSD.org/pub/FreeBSD/ (ftp)
+          ftp://ftp3.de.FreeBSD.org/pub/FreeBSD/ (ftp)
+          ftp://ftp.is.FreeBSD.org/pub/FreeBSD/ (ftp / rsync)
+          ftp://ftp4.jp.FreeBSD.org/pub/FreeBSD/ (ftp)
+          ftp://ftp.no.FreeBSD.org/pub/FreeBSD/ (ftp / rsync)
+        *
+          ftp://ftp3.no.FreeBSD.org/pub/FreeBSD/ (ftp)
+          ftp://ftp.pt.FreeBSD.org/pub/FreeBSD/ (ftp)
+          ftp://ftp1.ro.FreeBSD.org/pub/FreeBSD/ (ftp / ftpv6)
+          ftp://ftp3.es.FreeBSD.org/pub/FreeBSD/ (ftp)
+          ftp://ftp2.tw.FreeBSD.org/pub/FreeBSD/ (ftp / ftpv6 / http / httpv6 / rsync / rsyncv6)
+          ftp://ftp6.uk.FreeBSD.org/pub/FreeBSD/ (ftp)
+          ftp://ftp6.us.FreeBSD.org/pub/FreeBSD/ (ftp / http)
+sunsite.informatik.rwth-aachen.de	 	[ftp]	[http]	Rheinisch-Westfälische Technische Hochschule Aachen
+lame.lut.fi	 	 	[http]	Computer Club Ruut (Finland)
+	1 Gbits/sec 	IPv4 and IPv6
+FR 	Fedora Mirror 	ftp.proxad.net
+US 	distro.ibiblio.org 	jungle.metalab.unc.edu
+Fedora Core 		ftp
+          ftp://ftp.FreeBSD.org/pub/FreeBSD/ (ftp)
+          ftp://ftp11.FreeBSD.org/pub/FreeBSD/ (ftp)
+          ftp://ftp14.FreeBSD.org/pub/FreeBSD/ (ftp)
+          ftp://ftp.ar.FreeBSD.org/pub/FreeBSD/ (ftp)
+          ftp://ftp3.au.FreeBSD.org/pub/FreeBSD/ (ftp)
+    In case of problems, please contact the hostmaster <hostmaster@br.FreeBSD.org> for this domain.
+          ftp://ftp4.br.FreeBSD.org/pub/FreeBSD/ (ftp)
+          ftp://ftp.hr.FreeBSD.org/pub/FreeBSD/ (ftp)
+          ftp://ftp.cz.FreeBSD.org/pub/FreeBSD/ (ftp / http / rsync)
+          ftp://ftp.il.FreeBSD.org/pub/FreeBSD/ (ftp / ftpv6)
+          ftp://ftp7.jp.FreeBSD.org/pub/FreeBSD/ (ftp)
+        *
+          ftp://ftp7.ua.FreeBSD.org/pub/FreeBSD/ (ftp)
+          ftp://ftp11.ua.FreeBSD.org/pub/FreeBSD/ (ftp)
