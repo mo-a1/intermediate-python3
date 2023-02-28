@@ -1,12 +1,12 @@
 from functools import partial
 
 
-def bigger_than(a, b):
+def smaller_than(a, b):
     return a > b
 
 
-bigger_than_10 = partial(bigger_than, 10)
+smaller_than_10 = partial(smaller_than, 10)
 
-print(bigger_than(10, 5))
-print(bigger_than_10(5))
-print(bigger_than_10(20))
+print(smaller_than(10, 5))
+print(smaller_than_10(5))
+print(smaller_than_10(20))

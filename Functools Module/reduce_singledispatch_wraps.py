@@ -35,4 +35,3 @@ print(add_one([2, 5, 6, 8]))
 print(add_one({10, 2, 5, 300, 6, 8}))
 print(add_one("lkl"))
 print(add_one(1))
-

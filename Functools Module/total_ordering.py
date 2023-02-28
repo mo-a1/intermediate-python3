@@ -15,6 +15,7 @@ Note: This decorator makes no attempt to override methods that have been declare
 
 print("------------------------- @total_ordering ----------------------")
 
+
 @total_ordering
 class Node:
     def __init__(self, data=None, next_=None):

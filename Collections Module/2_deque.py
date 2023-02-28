@@ -18,7 +18,7 @@ print(d)
 d.rotate(-1)   # rotate left (move all element 1 step to left)
 print(d)
 
-d.insert(1, 10)
+d.insert(1, 10)   # insert(i, x): Insert x into the deque at position i.
 print(d)
 
 print("\n", "2 == " * 20, "\n")
