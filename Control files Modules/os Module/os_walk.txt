@@ -1,0 +1,108 @@
+dir_path: C:\Users\20106\PycharmProjects\intermediate-python3
+dir_name: ['.git', '.idea', 'Collections Module', 'Contextlib Module', 'Data_structures_and Algorithmes', 'Date time module', 'Decorators', 'Functools Module', 'Heapq Module', 'Iterators', 'Numbers', 'os Module', 'os.path module', 'Other Modules', 'Queue Module', 'Regex and re module', 'strings', 'testing', 'Time Module', 'Typing_module', '_numpy']
+file_name: ['.gitignore', 'README.md']
+------------------------------
+dir_path: C:\Users\20106\PycharmProjects\intermediate-python3\.idea
+dir_name: ['inspectionProfiles']
+file_name: ['.gitignore', 'Advanced python.iml', 'misc.xml', 'modules.xml', 'other.xml', 'vcs.xml', 'workspace.xml']
+------------------------------
+dir_path: C:\Users\20106\PycharmProjects\intermediate-python3\.idea\inspectionProfiles
+dir_name: []
+file_name: ['Project_Default.xml']
+------------------------------
+dir_path: C:\Users\20106\PycharmProjects\intermediate-python3\Collections Module
+dir_name: []
+file_name: ['1_named_tuple.py', '2_deque.py', '3_chainmaps.py', '4_counter.py', '5_ordered_dict.py', '6_defaultdict.py', '7_userdict.py']
+------------------------------
+dir_path: C:\Users\20106\PycharmProjects\intermediate-python3\Contextlib Module
+dir_name: ['examples']
+file_name: ['1_a_contextmanager_using_class.py', '1_b_contextmanager_using_func.py', '2_supress.py', '3_Exitstack.py', '4_redirect_stdout.py', 'output.txt', 'terminal_colors_sym.txt', 'using_class.txt', 'using_func.txt']
+------------------------------
+dir_path: C:\Users\20106\PycharmProjects\intermediate-python3\Contextlib Module\examples
+dir_name: []
+file_name: ['change_cwd.py', 'colored_terminal_text.py', 'output.txt', 'timer.py']
+------------------------------
+dir_path: C:\Users\20106\PycharmProjects\intermediate-python3\Data_structures_and Algorithmes
+dir_name: []
+file_name: ['calculating_with_dicts.py', 'chain_map.py', 'counter_.py', 'defaultDict.py', 'deque.py', 'grouping_opjects_or_dicts.py', 'heapq_module.py', 'implementing_priority_queue.py', 'named_tuble.py', 'ordered_dict.py', 'slice_.py', 'sorting_opjects.py', 'useful_astrisk.py']
+------------------------------
+dir_path: C:\Users\20106\PycharmProjects\intermediate-python3\Date time module
+dir_name: []
+file_name: ['1_timedelta.py', '2_date.py', '3_datetime.py']
+------------------------------
+dir_path: C:\Users\20106\PycharmProjects\intermediate-python3\Decorators
+dir_name: []
+file_name: ['closures.py', 'decorators.py']
+------------------------------
+dir_path: C:\Users\20106\PycharmProjects\intermediate-python3\Functools Module
+dir_name: []
+file_name: ['lru_cache_and_cache.py', 'partial_.py', 'reduce_singledispatch_wraps.py', 'total_ordering.py']
+------------------------------
+dir_path: C:\Users\20106\PycharmProjects\intermediate-python3\Heapq Module
+dir_name: []
+file_name: ['heapq_.py']
+------------------------------
+dir_path: C:\Users\20106\PycharmProjects\intermediate-python3\Iterators
+dir_name: []
+file_name: ['counter_iterator_with_reserve.py', 'recipes.py']
+------------------------------
+dir_path: C:\Users\20106\PycharmProjects\intermediate-python3\Numbers
+dir_name: []
+file_name: ['formating numbers.py']
+------------------------------
+dir_path: C:\Users\20106\PycharmProjects\intermediate-python3\os Module
+dir_name: []
+file_name: ['os_.py', 'os_walk.txt', 'renamedd.html']
+------------------------------
+dir_path: C:\Users\20106\PycharmProjects\intermediate-python3\os.path module
+dir_name: []
+file_name: ['os.path_.py']
+------------------------------
+dir_path: C:\Users\20106\PycharmProjects\intermediate-python3\Other Modules
+dir_name: ['copy module', 'Math Modules', 'weakref module']
+file_name: ['pprint_module.py']
+------------------------------
+dir_path: C:\Users\20106\PycharmProjects\intermediate-python3\Other Modules\copy module
+dir_name: []
+file_name: ['copy_.py']
+------------------------------
+dir_path: C:\Users\20106\PycharmProjects\intermediate-python3\Other Modules\Math Modules
+dir_name: []
+file_name: ['deciml_module.py', 'fractions_module.py', 'random_module.py']
+------------------------------
+dir_path: C:\Users\20106\PycharmProjects\intermediate-python3\Other Modules\weakref module
+dir_name: []
+file_name: ['weak_ref.py']
+------------------------------
+dir_path: C:\Users\20106\PycharmProjects\intermediate-python3\Queue Module
+dir_name: []
+file_name: ['queue_.py']
+------------------------------
+dir_path: C:\Users\20106\PycharmProjects\intermediate-python3\Regex and re module
+dir_name: []
+file_name: ['ftb_links.txt', 'ib.txt', 'modified_nums.txt', 'phone_numbers.txt', 're_module.py', 'work_on_text_files.py']
+------------------------------
+dir_path: C:\Users\20106\PycharmProjects\intermediate-python3\strings
+dir_name: []
+file_name: ['fnmatch_.py', 'regex.py', 'sanitizing and cleaning up texts.py', 'spliting strings using regex.py']
+------------------------------
+dir_path: C:\Users\20106\PycharmProjects\intermediate-python3\testing
+dir_name: ['__pycache__']
+file_name: ['calc.py', 'prop.py', 'test_calc.py']
+------------------------------
+dir_path: C:\Users\20106\PycharmProjects\intermediate-python3\testing\__pycache__
+dir_name: []
+file_name: ['calc.cpython-310.pyc', 'test_calc.cpython-310.pyc']
+------------------------------
+dir_path: C:\Users\20106\PycharmProjects\intermediate-python3\Time Module
+dir_name: []
+file_name: ['time_.py']
+------------------------------
+dir_path: C:\Users\20106\PycharmProjects\intermediate-python3\Typing_module
+dir_name: []
+file_name: ['typing_namedtuple.py']
+------------------------------
+dir_path: C:\Users\20106\PycharmProjects\intermediate-python3\_numpy
+dir_name: []
+file_name: ['basics.py']
+------------------------------

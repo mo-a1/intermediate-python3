@@ -1,8 +1,9 @@
 import weakref
 from sys import getrefcount
 
-# the benefit of it that if the main object deleted all the variables assigned to its reference will be assigned to None
-# (if the original reference collected [garbage collected] then it will be garbage from all memory locations)
+# the benefit of it that if the main object deleted then all the variables assigned to its reference will be
+# assigned to None (if the original reference collected [garbage collected] then it will be garbage from all
+# memory locations)
 
 # https://docs.python.org/3/library/weakref.html#
 # https://www.youtube.com/watch?v=GGKerIMqHCk&ab_channel=anthonywritescode

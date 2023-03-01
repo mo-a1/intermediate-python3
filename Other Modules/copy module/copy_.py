@@ -14,7 +14,7 @@ print("----------------- shallow copy -------------------")
 
 a = [1, 2, 3, 4, 5, 6]
 copy_a = a[:]
-print(copy_a)
+print("copy_a", copy_a)
 
 b = [[2, 4], [6, 8]]
 copy_b = b[:]

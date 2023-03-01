@@ -11,3 +11,5 @@ with ExitStack() as stack:
         print("\u001b[31m")
         print(f1_line.rstrip())
         print(f2_line.rstrip())
+
+print(help(ExitStack))
