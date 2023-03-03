@@ -5,8 +5,8 @@ import time
 
 print(dt.date.today())
 
-# fromtimestamp
-# convert seconds (float num) to date
+#  -------- important : fromtimestamp
+#  -------- convert seconds (float num) to date
 print(dt.date.fromtimestamp(time.time()))
 
 # fromisoformat

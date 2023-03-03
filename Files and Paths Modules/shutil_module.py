@@ -1,9 +1,9 @@
 import shutil
 import os
 
-# ########################## [ copy methods ] ############################ #
+# ########################## [ copy and move methods ] ############################ #
 
-# 'copy', 'copy2', 'copyfile', 'copyfileobj', 'copymode', 'copystat', 'copytree'
+# 'copy', 'copy2', 'copyfile', 'copyfileobj', 'copymode', 'copystat', 'copytree, move'
 
 src = r"C:\Users\20106\PycharmProjects\intermediate-python3\Files and Paths Modules\testes\test_1\11df.py"
 dst = r"C:\Users\20106\PycharmProjects\intermediate-python3\Files and Paths Modules\testes\test_2"
@@ -15,6 +15,12 @@ dst = r"C:\Users\20106\PycharmProjects\intermediate-python3\Files and Paths Modu
 # shutil.copystat(src, dst)   # only copy the metadata from src to dst
 # shutil.copytree(src, dst)   # copy contents of directory (src) to anew directory its path and name = (dst) which will
 #                               be created and Error raised if dir already found
+# shutil.move(src, dst, copy_function=shutil.copy)  # move file from dist to src following the copy function
+
+# --------- shutil.move(src, dst, copy_function=copy2) --------
+# Recursively move a file or directory (src) to another location (dst) and return the destination.
+# If the destination is an existing directory, then src is moved inside that directory. If the destination already
+# exists but is not a directory, it may be overwritten depending on os.rename() semantics.
 
 
 # os.remove(r"C:\Users\20106\PycharmProjects\intermediate-python3\Files and Paths Modules\testes\test_2\11df.py")

@@ -5,17 +5,18 @@ import time
 # attributes: tm_year, tm_mon, tm_mday, tm_hour, tm_min, tm_sec, tm_wday, tm_yday, tm_isdst
 
 # time tuple => (tm_year, tm_mon, tm_mday, tm_hour, tm_min, tm_sec, tm_wday, tm_yday, tm_isdst)
-# ____________________________________________________________________________________
-# method     |         input             | output
-# ___________|___________________________|____________________________________________
-# strftime   : time tuple | struct_time -> string
-# asctime    : time tuple               -> string
-# strptime   : string                   -> struct_time
-# time       :                          -> float (current time in seconds)
-# monotonic  :                          -> float (current time in seconds)
-# gmtime     :                          -> struct_time (current gm time)
-# localtime  :                          -> struct_time (current local time)
-# _____________________________________________________________________________________
+
+# ______________________________________________________________________________________
+# | method     |         input             | output                                     |
+# |____________|___________________________|____________________________________________|
+# | strftime   | time tuple | struct_time  | string                                     |
+# | asctime    | time tuple                | string                                     |
+# | strptime   | string                    | struct_time                                |
+# | time       |   --                      | float (current time in seconds)            |
+# | monotonic  |   --                      | float (current time in seconds)            |
+# | gmtime     |   --                      | struct_time (current gm time)              |
+# | localtime  |   --                      | struct_time (current local time)           |
+# |____________|___________________________|____________________________________________|
 
 time_tuple = (2022, 11, 7, 14, 22, 10, 0, 0, 0)
 t1 = time.asctime(time_tuple)
