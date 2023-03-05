@@ -4,7 +4,7 @@ import random
 
 print("random.random() -> ", random.random())
 print("random.uniform(2, 7) -> ", random.uniform(2, 7))
-print("random.randint(-.10, 7) -> ", random.randint(-10, 7))
+print("random.randint(-10, 7) -> ", random.randint(-10, 7))
 ls = ["ha", "ke", "loo", "oeh"]
 ls2 = ["fff", "rrr", "ddd", "ooo"]
 print("random.choice(ls) -> ", random.choice(ls))
