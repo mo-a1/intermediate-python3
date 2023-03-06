@@ -1,0 +1,5 @@
+[31m
+2023-03-01 17:47:19.325015
+hello
+color still exist because context manager not exit yet
+[0m

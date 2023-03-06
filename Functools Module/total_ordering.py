@@ -1,4 +1,3 @@
-import functools
 from functools import total_ordering
 
 # https://www.youtube.com/watch?v=Jztj_yuFTlk&ab_channel=IndianPythonista

@@ -4,9 +4,9 @@ print("-------------------  class: PureWindowsPath  --------------------")
 
 path = r"C:\Users\20106\PycharmProjects\intermediate-python3\Contextlib Module\2_supress.py"
 
-a = pathlib.PureWindowsPath(path)
+a = pathlib.PureWindowsPath(path)   # <class 'pathlib.PureWindowsPath'>
 
-# ----------- parts --------------
+# ----------- attributes --------------
 
 print(a)             # C:\Users\20106\PycharmProjects\intermediate-python3\Contextlib Module\2_supress.py
 print(a.parts)       # ('C:\\', 'Users', '20106', 'PycharmProjects', 'intermediate-python3', 'Contextlib Module', '2_supress.py')
