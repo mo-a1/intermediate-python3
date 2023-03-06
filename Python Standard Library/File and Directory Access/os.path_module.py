@@ -1,7 +1,7 @@
 import os.path as op
 from datetime import datetime
 
-path = r"../Contextlib Module"
+path = r"../Python Runtime Services/Contextlib Module"
 fpath = r"D:\Programing\Learning\Code\python3\intermediate-python3\Files and Paths Modules\testes\linecash.txt"
 print(op.basename(path))
 print(op.isdir(path))

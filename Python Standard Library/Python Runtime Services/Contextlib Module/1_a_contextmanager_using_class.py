@@ -1,3 +1,4 @@
+
 class open_file:
     def __init__(self, file_name, mode):
         self.file_name = file_name

@@ -3,8 +3,8 @@ from contextlib import contextmanager
 
 @contextmanager
 def open_file(file_name, mode):
+    f = open(file_name, mode)
     try:
-        f = open(file_name, mode)
         yield f
     finally:
         print("file closed")
