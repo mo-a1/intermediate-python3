@@ -1,0 +1,9 @@
+2023-03-10 01:38:21,074 - WARNING - big value - accumulator
+2023-03-10 01:38:21,074 - ERROR - there are negative value (values) min -> -9 - checker
+2023-03-10 01:38:21,074 - ERROR - ZeroDivisionError - z_checker
+Traceback (most recent call last):
+  File "D:\Programing\Learning\Code\python3\intermediate-python3\Python Standard Library\Generic Operating System Services\Logging Module\examples.py", line 34, in z_checker
+    max(self.values) / i
+ZeroDivisionError: division by zero
+2023-03-10 01:38:21,074 - WARNING - only one value exist - sum
+2023-03-10 01:38:21,075 - WARNING - only one value exist - sum

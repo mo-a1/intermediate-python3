@@ -3,7 +3,7 @@ from collections import namedtuple
 user = namedtuple("user", "f_name l_name age gender", defaults=None)
 amal = user('amal', 'ali', 50, 'female')
 print(user)
-print(amal)
+print(amal)  # user(f_name='amal', l_name='ali', age=50, gender='female')
 print(amal[0])
 
 print("---" * 20)
@@ -18,7 +18,7 @@ print(user._field_defaults)
 print("== 1 " * 20)
 # ._replace()
 # replace values of tuple objects
-employ = namedtuple("Employ", "name age", rename=True)
+employ = namedtuple("Employ", "name age")
 ahmed = employ("ahmed", 27)
 print("original: ", ahmed)
 print("after replace: ", ahmed._replace(age="37"))
@@ -45,4 +45,3 @@ point = namedtuple("Point", "x y z", defaults=[0, 0, 0])
 start_point_dict = {"x": 14, "y": 20}
 start_point_ntuple = point(**start_point_dict)
 print(start_point_ntuple)
-

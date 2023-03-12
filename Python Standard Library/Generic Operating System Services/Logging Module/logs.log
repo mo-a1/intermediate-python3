@@ -1,0 +1,15 @@
+ 2023-03-10 02:04:34,516 - DEBUG - basics - basics.py 
+ 2023-03-10 02:04:34,516 - INFO - basics - basics.py 
+ 2023-03-10 02:04:34,516 - WARNING - basics - basics.py 
+ 2023-03-10 02:04:34,516 - ERROR - basics - basics.py 
+ 2023-03-10 02:04:34,516 - CRITICAL - basics - basics.py 
+ 2023-03-10 02:04:34,516 - WARNING - test our custom logger - basics.py 
+ 2023-03-10 02:04:34,516 - WARNING - big value - examples.py 
+ 2023-03-10 02:04:34,517 - ERROR - there are negative value (values) min -> -9 - examples.py 
+ 2023-03-10 02:04:34,517 - ERROR - ZeroDivisionError - examples.py 
+Traceback (most recent call last):
+  File "D:\Programing\Learning\Code\python3\intermediate-python3\Python Standard Library\Generic Operating System Services\Logging Module\examples.py", line 35, in z_checker
+    max(self.values) / i
+ZeroDivisionError: division by zero
+ 2023-03-10 02:04:34,517 - WARNING - only one value exist - examples.py 
+ 2023-03-10 02:04:34,517 - WARNING - only one value exist - examples.py 

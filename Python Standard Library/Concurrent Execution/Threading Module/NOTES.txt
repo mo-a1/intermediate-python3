@@ -1,0 +1,17 @@
+- Python threading is restricted to a single CPU at one time. The multiprocessing library will allow you to run
+    code on different processors.
+
+- The .join() method allows one thread to wait for a second thread to complete. It is done automatically for you when
+    you use a ThreadPoolExecutor as a context manager (a with statement).
+
+- Using a ThreadPoolExecutor to manage your threads as a context manager takes care of starting and waiting for each
+    thread in your pool. It does not, however, pass exceptions from the Thread pool back to the main program well.
+    It also does not prevent race conditions.
+
+- The .cancel() method of the Timer object will stop a running timer before it has completed.
+
+- A threading.Lock is used to restrict access to a section of code (or a resource) so that only one thread can execute
+    that code (or use the resource) at a time. Every access to the resource must be protected by a Lock.
+
+- A race condition is when two threads interfere with each other while accessing a shared resource.
+    The resource can be a variable in memory, a file, or a physical device like a serial port.

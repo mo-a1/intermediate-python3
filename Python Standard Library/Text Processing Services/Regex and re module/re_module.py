@@ -12,7 +12,7 @@ text_1 = """Using a regular expression, you can match a variety <tag> of HTML ta
   the pair that # pyhon comment, opens and closes an HTML 4586vb tag. Without adding any additional detail or
    editing any function, you can use <tag> this regular expression."""
 
-pattern_1 = re.compile(r"(\d{4})\w{2}")
+pattern_1 = re.compile(r"(\d{4})\w{2}")   # re.Match object
 print(re.search(pattern_1, text_1))
 print(re.search(pattern_1, text_1).group())
 print(re.search(pattern_1, text_1).groups())
@@ -21,7 +21,7 @@ print(re.search(pattern_1, text_1).groupdict())
 # email pattern
 text_2 = "this is my email: mohamed.elnakeb24@gmail.com"
 gmail_pattern = re.compile(r"\w+\.?\w+@gmail.com")
-result = gmail_pattern.findall(text_2)
+result = gmail_pattern.findall(text_2)  # ['mohamed.elnakeb24@gmail.com']
 print(result)
 
 text_3 = 'Today is 11/27/2012. PyCon starts 3/13/2015.'
@@ -42,6 +42,6 @@ print("search => ", re.search(r"(\d+)/(\d+)/(\d+)", text_3))
 print(re.__all__)
 
 # different between re.sub and re.subn
-print("sub => ", re.sub(r"(\d+)/(\d+)/(\d+)", r"\2-\1-\3", text_3))
-print("subn => ", re.subn(r"(\d+)/(\d+)/(\d+)", r"\2-\1-\3", text_3))
+print("sub => ", re.sub(r"(\d+)/(\d+)/(\d+)", r"\2-\1-\3", text_3))      # str
+print("subn => ", re.subn(r"(\d+)/(\d+)/(\d+)", r"\2-\1-\3", text_3))    # tuple
 

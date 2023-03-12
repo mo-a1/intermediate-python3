@@ -23,7 +23,7 @@ print(d)
 
 print("\n", "2 == " * 20, "\n")
 
-a = d.copy()
+a = d.copy()    # shallow copy
 print(a)
 d.clear()
 print(d)

@@ -3,7 +3,7 @@ import fnmatch
 
 # methods: fnmatch, filter, translate
 
-for file in os.listdir(r""):
+for file in os.listdir(r"D:\Programing\Learning\Code\python3\intermediate-python3\Python Standard Library\File and Directory Access"):
     if fnmatch.fnmatch(file, "*.py"):
         print(file)
 

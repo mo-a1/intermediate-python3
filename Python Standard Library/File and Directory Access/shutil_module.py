@@ -1,12 +1,11 @@
 import shutil
-import os
 
 # ########################## [ copy and move methods ] ############################ #
 
-# 'copy', 'copy2', 'copyfile', 'copyfileobj', 'copymode', 'copystat', 'copytree, move'
+# 'copy', 'copy2', 'copyfile', 'copymode', 'copystat', 'copytree, 'move'
 
-src = r"C:\Users\20106\PycharmProjects\intermediate-python3\Files and Paths Modules\testes\test_1\11df.py"
-dst = r"C:\Users\20106\PycharmProjects\intermediate-python3\Files and Paths Modules\testes\test_2"
+src = r"testes\test_1\11df.py"
+dst = r"testes\test_2"
 
 # shutil.copyfile(src, dst)   # copy file only.
 # shutil.copy(src, dst)       # copy the file and its permissions

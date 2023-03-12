@@ -1,11 +1,17 @@
+"""
+    This module creates temporary files and directories. It works on all supported platforms. TemporaryFile,
+NamedTemporaryFile, TemporaryDirectory, and SpooledTemporaryFile are high-level interfaces which provide
+automatic cleanup and can be used as context managers. mkstemp() and mkdtemp() are lower-level functions
+which require manual cleanup.
+"""
 import tempfile
 import os
-import time
 
-path = r"C:\Users\20106\PycharmProjects\intermediate-python3\Files and Paths Modules\testes"
+path = r"D:\Programing\Learning\Code\python3\intermediate-python3\Python Standard Library\File and Directory Access\testes"
 
 print("---------------- TemporaryFile ----------------")
 
+# does not appear in Windows explorer
 with tempfile.TemporaryFile(mode="w+t", dir=path, delete=True) as tfile:
     print(tfile.name)
     tfile.write("hello from TemporaryFile")
@@ -16,6 +22,7 @@ print("---------------- NamedTemporaryFile ----------------")
 
 with tempfile.NamedTemporaryFile(mode="w+t", dir=path, prefix="prefix", suffix="suffix", delete=True) as ntfile:
     ntfile.write("hello from NamedTemporaryFile ")
+    print(ntfile.name)
     print(os.listdir(path))
 
 print("---------------- TemporaryDirectory ----------------")
@@ -25,7 +32,6 @@ with tempfile.TemporaryDirectory(suffix="suffix", prefix="prefix", dir=path) as 
     print(tdir)
     print("tdire is dire? ", os.path.isdir(tdir))
     print(os.listdir(tdir))
-    # time.sleep(30)
 
 print("---------------- mkdtemp() ----------------")
 

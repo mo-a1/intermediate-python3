@@ -3,8 +3,8 @@ import filecmp
 # ###################### function: filecmp.cmp() ######################### #
 print(filecmp.cmp("testes/linecash.txt", "testes/linecash_copy.txt"))
 
-path1 = r"C:\Users\20106\PycharmProjects\intermediate-python3\Files and Paths Modules\testes\test_1"
-path2 = r"C:\Users\20106\PycharmProjects\intermediate-python3\Files and Paths Modules\testes\test_1_copy"
+path1 = r"D:\Programing\Learning\Code\python3\intermediate-python3\Python Standard Library\File and Directory Access\testes\test_1"
+path2 = r"D:\Programing\Learning\Code\python3\intermediate-python3\Python Standard Library\File and Directory Access\testes\test_1_copy"
 
 # ###################### class: filecmp.dircmp() ######################### #
 
@@ -14,4 +14,5 @@ path2 = r"C:\Users\20106\PycharmProjects\intermediate-python3\Files and Paths Mo
 
 dir_comp = filecmp.dircmp(path1, path2)
 print(dir_comp.common_files)
+print(dir_comp)
 print(dir(dir_comp))

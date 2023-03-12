@@ -1,3 +1,9 @@
+"""
+    A “shelf” is a persistent, dictionary-like object. The difference with “dbm” databases is that the values
+(not the keys!) in a shelf can be essentially arbitrary Python objects — anything that the pickle module can handle.
+This includes most class instances, recursive data types, and objects containing lots of shared sub-objects.
+The keys are ordinary strings.
+"""
 import shelve
 
 my_dict = {1: 2, 2: 4, 4: 8}
@@ -14,6 +20,7 @@ class DataEntry:
 
 my_obj = DataEntry(5, 5)
 
-with shelve.open("shelved_data", protocol=5) as db:
+# ################# shelve.open() ################## #
+with shelve.open("shelved_data.db") as db:
     db["adict"] = my_dict
     db["aobj"] = my_obj

@@ -17,6 +17,9 @@ class DataEntry:
 
 de = DataEntry(11, 22)
 
+# NOTE :: mode -> wb or rb because we work with bytes.
+# Methods :: dump, load
+
 with open("pickle_out.pickle", "wb") as pickle_out:
     pickle.dump(de, pickle_out)
 

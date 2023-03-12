@@ -1,4 +1,3 @@
-import fractions
 from fractions import Fraction
 
 # https://www.youtube.com/watch?v=bnTWjeubB3I&t=76s&ab_channel=ProsperoCoder

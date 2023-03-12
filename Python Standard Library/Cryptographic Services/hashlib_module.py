@@ -7,7 +7,7 @@ name = hashlib.sha256("mohamed".encode())
 print(name.hexdigest())
 print(len(name.hexdigest()), "character", len(name.hexdigest())*4, " bytes")
 print(name.name)
-print(name.update(" ali".encode()))  # change the string which used in hash -> from mohamed to mohamed ali
+print(name.update(" ali".encode()))  # update the string which used in hash -> from mohamed to mohamed ali
 print(hashlib.sha256("mohamed ali".encode()).hexdigest())
 print(name.hexdigest())
 
