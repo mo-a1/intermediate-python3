@@ -4,7 +4,7 @@ from coloring import green_text, red_text
 
 
 # https://realpython.com/intro-to-python-threading/
-
+# https://superfastpython.com/learning-paths/#Threading_Learning_Path
 
 def count(thread_name, num):
     with green_text():
@@ -25,13 +25,11 @@ t2 = Thread(target=count, args=("thread2", 10,))
 
 # join: used to prevent other threads from execution till this thread end
 t1.start()
-# t1.join()
+t1.join()
 t2.start()
 
 # demon thread: if the program reach the end of code then the demon thread will stop.
 d_thr = Thread(target=count, args=("daemon_thread", 15,), daemon=True)
 d_thr.start()
-d_thr.join()
-sleep(2)
 
 print("MAIN THREAD")

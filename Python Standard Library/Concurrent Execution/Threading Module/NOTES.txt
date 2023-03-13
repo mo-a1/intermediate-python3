@@ -15,3 +15,7 @@
 
 - A race condition is when two threads interfere with each other while accessing a shared resource.
     The resource can be a variable in memory, a file, or a physical device like a serial port.
+
+- What is a Semaphore?
+    https://superfastpython.com/thread-semaphore/#Need_for_a_Semaphore
+

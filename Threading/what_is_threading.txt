@@ -1,5 +1,6 @@
 1- what is threading in python?
 https://realpython.com/intro-to-python-threading/
+https://superfastpython.com/learning-paths/#Threading_Learning_Path
 
 2- what is GIL in python?
 BASIC: https://realpython.com/python-gil/
@@ -20,3 +21,4 @@ https://docs.python.org/3.10/library/threading.html
 
 5- Important terms
     race condition, lock(mutex), deadlock
+    deadlock: https://superfastpython.com/thread-deadlock-in-python/
