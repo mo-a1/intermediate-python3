@@ -1,14 +1,14 @@
 import hashlib
 
-# we can know the length of hash string by divide the algorithm bytes num by 4... EX: sha256 -> 256/4 = 64 character
+# we can know the length of hash string by dividing the algorithm bytes num by 4... EX: sha256 -> 256/4 = 64 character
 # because every character takes 4 bytes
 
-name = hashlib.sha256("mohamed".encode())
+name = hashlib.sha256(b"mohamed")
 print(name.hexdigest())
 print(len(name.hexdigest()), "character", len(name.hexdigest())*4, " bytes")
 print(name.name)
-print(name.update(" ali".encode()))  # update the string which used in hash -> from mohamed to mohamed ali
-print(hashlib.sha256("mohamed ali".encode()).hexdigest())
+print(name.update(b" ali"))  # update the string which used in hash -> from mohamed to mohamed ali
+print(hashlib.sha256(b"mohamed ali").hexdigest())
 print(name.hexdigest())
 
 users_dict = {

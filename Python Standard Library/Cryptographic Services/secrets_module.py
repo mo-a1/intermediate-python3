@@ -12,7 +12,7 @@ print(secrets.choice(lis))
 print(secrets.randbelow(100))
 
 # rand bits
-print(secrets.randbits(10))
+print(secrets.randbits(16))
 
 # ############# generate random tokens ############ #
 

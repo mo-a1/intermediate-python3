@@ -15,7 +15,7 @@ with zipfile.ZipFile("new2.zip", mode="w", compression=zipfile.ZIP_DEFLATED) as 
 # extract files
 with zipfile.ZipFile("new2.zip", "r") as zfile:
     zfile.extract("1_file.css", "files")
-    zfile.extractall("files")
+    zfile.extractall(path="files")
 
     # ################### methods #################### #
 

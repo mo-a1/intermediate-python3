@@ -1,0 +1,22 @@
+The main difference between a Lock and an RLock (reentrant lock) in the Python threading module is that the RLock allows
+ the same thread to acquire the lock multiple times without blocking, while a Lock does not.
+
+When a thread acquires a Lock, no other thread can acquire the lock until the first thread releases it. This is fine in
+ many cases, but it can lead to problems if a thread needs to acquire the same lock multiple times. For example, if a
+  function acquires a lock, calls another function that also acquires the same lock, and then returns, the lock will not
+   be released until the outer function returns, potentially causing other threads to block unnecessarily.
+
+An RLock solves this problem by allowing a thread to acquire the same lock multiple times without blocking. Each time
+ the thread acquires the lock, a recursion level is incremented. When the thread releases the lock, the recursion level
+  is decremented. The lock is only released when the recursion level reaches 0.
+
+In general, you should use an RLock only if you actually need to acquire a lock multiple times from within the same
+ thread. Otherwise, a Lock or Semaphore is sufficient for synchronizing access to a shared resource.
+
+In summary, the main differences between a Lock and an RLock are:
+
+A Lock does not allow the same thread to acquire the lock multiple times, while an RLock does.
+
+An RLock is more complex to use correctly than a Lock.
+
+You should only use an RLock if you actually need to acquire a lock multiple times from within the same thread.

@@ -32,7 +32,7 @@ cst_logger.setLevel(logging.INFO)
 handler = logging.FileHandler("logs_2.log")
 
 # 3- create formatter for the handler
-formatter = logging.Formatter(" %(asctime)s - %(levelname)s - %(message)s - %(name)s ")
+formatter = logging.Formatter("%(asctime)s - %(levelname)s - %(message)s - %(name)s")
 
 # 4- set the formatter to the handler
 handler.setFormatter(formatter)

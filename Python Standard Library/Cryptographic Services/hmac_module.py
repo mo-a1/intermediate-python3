@@ -15,9 +15,9 @@ HMAC, a mechanism for message authentication
 my_key = b"ads54d8d9"   # it must be a bytes
 my_message = hmac.new(key=my_key, msg=b"hello friend", digestmod="sha256")
 
-other_key = "ads54d8d9".encode()
-# other_key = "ads54444".encode()
-other_message = hmac.new(key=bytes(other_key), msg="hello friend".encode(), digestmod="sha256")
+other_key = b"ads54d8d9"
+# other_key = b"ads54444"
+other_message = hmac.new(key=other_key, msg=b"hello friend", digestmod="sha256")
 
 print(my_message.hexdigest())
 

@@ -1,0 +1,9 @@
+resources: 1- https://superfastpython.com/multiprocessing-in-python/
+
+Concurrent: Code that can be executed out of order.
+Parallel: Capability to execute code simultaneously.
+
+Process: The operating system’s spawned and controlled entity that encapsulates an executing application. A process has
+        two main functions. The first is to act as the resource holder for the application, and the second is to execute
+        the instructions of the application
+

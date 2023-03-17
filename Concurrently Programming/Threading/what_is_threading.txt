@@ -1,0 +1,25 @@
+1- what is threading in python?
+https://realpython.com/intro-to-python-threading/
+https://superfastpython.com/learning-paths/#Threading_Learning_Path
+
+2- what is GIL in python?
+BASIC: https://realpython.com/python-gil/
+ADVANCED: https://www.youtube.com/watch?v=Obt-vMVdM8s&ab_channel=DavidBeazley
+
+3- threading module documentation?
+https://docs.python.org/3.10/library/threading.html
+
+4- daemon thread:-
+    In computer science, a daemon is a process that runs in the background.
+
+    Python threading has a more specific meaning for daemon. A daemon thread will shut down immediately when the program
+    exits. One way to think about these definitions is to consider the daemon thread a thread that runs in the
+    background without worrying about shutting it down.
+
+    If a program is running Threads that are not daemons, then the program will wait for those threads to complete
+    before it terminates. Threads that are daemons, however, are just killed wherever they are when the program is exiting.
+
+5- Important terms
+    race condition, lock(mutex), deadlock, barrier
+    deadlock: https://superfastpython.com/thread-deadlock-in-python/
+    barrier : https://en.wikipedia.org/wiki/Barrier_(computer_science)
