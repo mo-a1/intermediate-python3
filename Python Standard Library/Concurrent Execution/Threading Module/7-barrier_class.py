@@ -26,6 +26,7 @@ broken(self) - This method returns True if the barrier has been broken, and Fals
 # https://en.wikipedia.org/wiki/Barrier_(computer_science)
 
 import threading
+import time
 
 # Create a new barrier object for 3 threads
 barrier = threading.Barrier(3)
@@ -34,7 +35,8 @@ barrier = threading.Barrier(3)
 # Define a worker function that waits at the barrier
 def worker():
     print("Worker before barrier")
-    barrier.wait(5)
+    barrier.wait()
+    time.sleep(2)
     print("Worker after barrier")
 
 
